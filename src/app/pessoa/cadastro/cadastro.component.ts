@@ -49,7 +49,7 @@ import { Observable } from 'rxjs/Observable';
     salvar():void {
 
         /*SE NÃO TIVER CÓDIGO VAMOS INSERIR UM NOVO REGISTRO */
-        if(this.pessoa.codigo == undefined) {
+        if(this.pessoa.id == undefined) {
 
         /*CHAMA O SERVIÇO PARA ADICIONAR UMA NOVA PESSOA */
         this.pessoaService.adicionarPessoa(this.pessoa).subscribe(response => {

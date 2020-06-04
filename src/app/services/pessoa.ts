@@ -1,6 +1,6 @@
 export class Pessoa {
 
-codigo:number;
+id:number;
 nome:string;
 ativo:boolean;
 

@@ -24,7 +24,7 @@ export class PessoaService {
         this.baseUrlService = configService.getUrlService() + '/pessoa/';
 
         /** ADICIONANDO O JSON NO HEADER  */
-        this.headers = new Headers({'Content-Type':'aplication/json;charset=UTF8'});
+        this.headers = new Headers({'Content-Type':'application/json;charset=UTF8'});
         this.options = new RequestOptions({headers: this.headers});
 
     }
